@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background: #4CB8C4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c22ed0, #5ffae0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c22ed0, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;    
+}
+.card {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #fff;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.image {
+    padding-top: 15px;
+}
+.twitter_btn {
+    transition: background-color .2s linear;
+    width: 154px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    
+}
+.btn_link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+.firstline {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondline{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.size {
+    height: 15px;
+
+}
+#tw_btn {
+    margin-left: 15px;
+    fill: #fff;
+}
+#web_btn {
+    margin-left: 15px;
+    fill: #fff;
+}
+#teleg_btn {
+    margin-right: 15px;
+    fill: #fff;
+}
+#git_btn {
+    margin-right: 15px;
+    fill: #fff;
+}
+.twitter_btn:hover {
+    background-color:blueviolet;
+    
+}
